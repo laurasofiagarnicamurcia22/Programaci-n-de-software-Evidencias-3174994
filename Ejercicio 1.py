@@ -1,4 +1,4 @@
-# Algoritmo para determinar si un número es par o impar
+
 
 def es_par_o_impar(numero):
     """
@@ -9,7 +9,6 @@ def es_par_o_impar(numero):
     else:
         return "El número es impar."
 
-# Programa principal
 def main():
     try:
         numero = int(input("Ingresa un número entero: "))
@@ -18,6 +17,6 @@ def main():
     except ValueError:
         print("Por favor, ingresa un valor numérico entero válido.")
 
-# Ejecutar el programa
+
 if __name__ == "__main__":
     main()
